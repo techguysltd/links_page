@@ -1,0 +1,67 @@
+baseURL = "https://links.techguys.mu/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Tech Guys Ltd"
+copyright = "© 2024 Tech Guys Ltd"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+   name = "Tech Guys Ltd"
+   headline = "Transforming Technology - Simplifying Life"
+   image = "logo.png"  # path relative to static directory
+
+  links = [
+    #{ email = "mailto:info@techguys.mu" },
+    { custom-email = { href = "mailto:info@techguys.mu", text = "Contact Us", icon = "email" } },
+    #{ link = { href = "#", text = "Web Site (cooming soon)", target = "_self" } },
+    { custom-link = { href = "#", text = "Web Site (cooming soon)", target = "_self", icon = "link" } },
+    { linkedin = "https://linkedin.com/company/techguysltd" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { bandcamp = "https://username.bandcamp.com" },
+    # { bluesky = "https://bsky.app/profile/username" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    { facebook = "https://facebook.com/techguysltd" },
+    { whatsapp = "https://wa.me/+23054998173" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    { instagram = "https://instagram.com/techguysltd" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://last.fm/user/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { spotify = "https://spotify.com/user/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { threads = "https://threads.com/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { x = "https://x.com/username" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"

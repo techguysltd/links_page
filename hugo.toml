@@ -17,7 +17,7 @@ disableKinds = ["taxonomy", "term"]
     #{ email = "mailto:info@techguys.mu" },
     { custom-email = { href = "mailto:info@techguys.mu", text = "Contact Us", icon = "email" } },
     #{ link = { href = "#", text = "Web Site (cooming soon)", target = "_self" } },
-    { custom-link = { href = "#", text = "Web Site (cooming soon)", target = "_self", icon = "link" } },
+    { custom-link = { href = "#", text = "Web Site (coming soon)", target = "_self", icon = "link" } },
     { linkedin = "https://linkedin.com/company/techguysltd" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
